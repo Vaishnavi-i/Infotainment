@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+    <div class="header0">
+        <h1>Infotainment</h1>
+    </div>
+    <div class="header">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <H2>LOGIN</H2>
+                    <form>
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn"><a href="profile.html">Submit</a></button>
+                    </form>
+                    <button type="button" class="btm" onclick="openRegister()">New here? Create Account</button>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="card-back">
+                    <H2>REGISTER</H2>
+                    <form>
+                        <input type="text" class="input-box" placeholder="Your Name" required>
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <a href="profile.html"><button type="submit" class="submit-btn">Submit</button></a>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">Already have an Account? Login here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var card = document.getElementById("card");
+        function openRegister(){
+            card.style.transform = "rotateY(-180deg)";
+        }
+        function openLogin(){
+            card.style.transform = "rotateY(0deg)";
+        }
+    </script>
+</body>
+</html>

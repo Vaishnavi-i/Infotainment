@@ -1,0 +1,56 @@
+.header0{
+    font-size: 15px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    background: violet;
+    color: black;
+    align-items: left;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    top:0;
+    margin-left: 90%;
+    padding: 20px 20px;
+}
+body{
+    background-color:rgb(253, 247, 253);
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+    margin-left: 20px;
+}
+.game1{
+    position:relative;
+    margin-left: 50%;
+    cursor: pointer;
+}
+.container{
+    background: #ffffff;
+}
+.title{
+    color: grey;
+    font-size: 18px;
+}
+button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:black;
+    background-color: rgb(182, 53, 143);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover{
+    opacity: 0.7;
+}

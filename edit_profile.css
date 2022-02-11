@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 218, 224);
+    margin: 50px 600px;
+}
+*:focus{
+    outline: none;
+}
+.box{
+    box-sizing: border-box;
+    position: fixed;
+    align-items: center;
+    width: 360px;
+    height: 600px;
+    border: 2px solid purple;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+                0px 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    background-color: pink;
+    margin-top: 50px;
+    overflow: hidden;
+}
+img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid purple;
+    padding: 3px;
+    background-color: plum; 
+}
+input[type="text"],
+input[type="email"]
+{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: pu;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="radio"]:focus{
+    border-bottom: 2px solid blueviolet;
+    border-bottom-right-radius: 20px;
+    color: blueviolet;
+    transition: 0.2 ease;
+}
+button{
+    border: 1px solid purple;
+    background-color: purple;
+    color: plum;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: purple;
+    color: plum;
+    border: 1px solid purple;
+    padding: 2px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+label:hover{
+    background-color: blueviolet;
+    color: purple;
+}
